@@ -1,53 +1,84 @@
 [Adblock Plus 2.0]
 
 ! 나무위키 - 사이드
-namu.wiki###app > div > div:nth-child(2) > div > div:nth-child(6), #app > div:first-child > div:nth-child(2) > div > div:nth-child(4)
-! 나무위키 - 하단 - 파워링크
+!namu.wiki###app > div.txWeFeQv.F0NJvhJh:first-child > div.f\+D5lR33.MzEauk3m.OdUYYNqR:nth-child(2) > div.\+RO3qLBS > div._2ECkW7DQ.-arDGCRu:nth-child(5)
+namu.wiki###app > div:first-child > div:nth-child(2) > div > div:nth-child(5)
+
+! 나무위키 - 파워링크
+!namu.wiki###app > div.txWeFeQv.F0NJvhJh:first-child > div.f\+D5lR33.MzEauk3m.OdUYYNqR:nth-child(2) > div.\+RO3qLBS > div._1T7FeGQG.tiOl4rdb:nth-child(2) > div.hcVtSVXe._6uMCD6Fk:last-child > div.JOCnggwN.fmJ6V544:nth-child(4) > div.XxZuYijn.TTwKAAav:nth-child(4) > div.i64wim7U.xipnNGFQ:last-child > div.O5Sp_a2.\31 06rEBD.znmGq3:nth-child(2)
 namu.wiki###app > div:first-child > div:nth-child(2) > div > div:nth-child(2) > div:last-child > div:nth-child(4) > div:nth-child(4) > div:last-child > div:nth-child(2)
+! 나무위키 - 모바일 - 파워링크
+!namu.wiki###app > div.txWeFeQv.F0NJvhJh:first-child > div.f\+D5lR33.MzEauk3m.OdUYYNqR:nth-child(2) > div.\+RO3qLBS > div._1T7FeGQG.tiOl4rdb:nth-child(2) > div.hcVtSVXe._6uMCD6Fk:last-child > div.JOCnggwN.fmJ6V544:nth-child(3) > div.XxZuYijn.TTwKAAav:nth-child(4) > div.i64wim7U.xipnNGFQ:last-child > div.O5Sp_a2.\31 06rEBD.znmGq3:nth-child(2)
+namu.wiki###app > div:first-child > div:nth-child(2) > div > div:nth-child(2) > div:last-child > div:nth-child(3) > div:nth-child(4) > div:last-child > div:nth-child(2)
 
-! 나무뉴스 - 사이드 - 불타는_뉴스
-namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-adSidebar.border-l-black-500.box-content.hidden.border-l.pl-10.lg\:block:last-child
-! 나무뉴스 - 사이드 - 실시간_검색어
-namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-ad-sidebar.border-r-black-500.box-content.hidden.border-r.pr-10.lg\:block:first-child
+! 디시인사이드 - 사이드
+gall.dcinside.com##.content_box, .r_dcmedia
 
-! 디시인사이드 - 사이드 - 추가_콘텐츠
-gall.dcinside.com##.content_box, .r_timebest
-! 디시인사이드 - 게시글 - 글목록
+! 디시인사이드 - 게시글 - 글_목록
 gall.dcinside.com###bottom_listwrap > section.left_content:first-child
-! 디시인사이드 - 게시판 - 상단 - 실시간_베스트
-gall.dcinside.com###gall_top_recom
 
-! 디시인사이드 - 모바일 - 하단 - 추가_콘텐츠
+! 디시인사이드 - 게시판 - 상단 - 실시간_베스트
+! 마이너 게시판의 정보 글은 차단 안 함.
+! 아래의 필터는 위 필터의 유사 요소 차단.
+gall.dcinside.com###gall_top_recom
+!gall.dcinside.com##.concept_wrap
+
+! 디시인사이드 - 모바일 - 게시글 - 하단 - 외부_게시판
 m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(8)
-! 디시인사이드 - 모바일 - 하단 - 글목록
+
+! 디시인사이드 - 모바일 - 게시글 - 하단 - 글_목록
 m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(5)
 
-! 개드립 - 게시글 - 사이드 - 개드립_인기글
+! 디시인사이드 - 모바일 - 게시판 - 상단 - 추천_게시글
+m.dcinside.com###recom_box1
+
+! 개드립 - 사이드
 dogdrip.net###main > div.eq.container > div.eq.clayerbox-right:last-child
-! 개드립 - 게시글 - 하단 - 글목록
-! 게시판 글목록도 차단됨.
+
+! 개드립 - 게시글 - 하단
+! 게시판의 글 목록도 차단됨.
 dogdrip.net###main > div.eq.container > div.eq.section.secontent.background-color-content:nth-child(2) > div.ed.board.container:last-child > div.ed.board-list:last-child
 
-! 에펨코리아 - 게시글 - 글목록
-! 게시판 글목록도 차단됨.
+! 개드립 - 이모지 - 하단 - 목록
+dogdrip.net###bd_dogcon_list
+
+! 에펨코리아 - 게시글 - 하단 - 글_목록
+! 게시판의 글 목록도 차단됨.
 fmkorea.com##.bd_lst_wrp
-![$path=/\/[0-9]+$|index\.php/]fmkorea.com##.bd_lst_wrp
-! 위 필터를 adguard의 문법이므로 다른 브라우저에서는 작동 안 할 가능성이 크다.
+
 ! 에펨코리아 - 팝업
 fmkorea.com###fm_alert
-! 에펨코리아 - 게시판 - 상단 - 다른_게시판_인기글
-fmkorea.com###content > div.content_dummy > aside.content_widget:first-child
 
-! 아카라이브 - 사이드 - 핫딜_채널, 이_채널의_개념글
-arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-child(3) > aside.sidebar.right-sidebar:last-child
+! 아카라이브 - 사이드
+arca.live##.sidebar, .right-sidebar
+
 ! 아카라이브 - 댓글 - 프로필
 arca.live##.avatar
-! 아카라이브 - 게시글 - 하단 - 글목록
-arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-child(3) > article.containe-fluid.board-article:nth-child(2) > div.article-view > div.included-article-list:last-child
 
-! 유튜브 - 사이드 - 관련_영상
-youtube.com###secondary
+! 아카라이브 - 게시글 - 하단 - 글_목록
+arca.live##.included-article-list
+
+! 아카라이브 - 게시판 - 상단 - 외부_게시판_광고
+arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-child(3) > article.containe-fluid.board-article:nth-child(2) > div.board-article-list > div.article-list:nth-child(6) > div.list-table.table:last-child > a.vrow.column.notice.notice-service:nth-child(2)
+
+! 나무뉴스 - 오른쪽_사이드 - 불타는_뉴스
+namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-adSidebar.border-l-black-500.box-content.hidden.border-l.pl-10.lg\:block:last-child
+
+! 나무뉴스 - 왼쪽_사이드 - 실시간_검색어
+namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-ad-sidebar.border-r-black-500.box-content.hidden.border-r.pr-10.lg\:block:first-child
+
+! 유튜브 - 관련_영상
+! 라이브의 채팅도 차단됨.
+!youtube.com###secondary
+
+! 유튜브 - 관련_영상
+youtube.com###related
+
 ! 유튜브 - 댓글 - 프로필
 youtube.com###author-thumbnail
+
+
+
+
 
 
