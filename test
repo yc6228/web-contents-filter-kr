@@ -32,6 +32,10 @@ m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > 
 ! 디시인사이드 - 모바일 - 게시판 - 상단 - 추천_게시글
 m.dcinside.com###recom_box1
 
+! 디시인사이드 - 댓글 - 댓글돌이
+! Adguard에서 기본 차단, 특정 언어 필터.
+gall.dcinside.com###comment_li_0
+
 ! 개드립 - 사이드
 dogdrip.net###main > div.eq.container > div.eq.clayerbox-right:last-child
 
@@ -61,6 +65,14 @@ arca.live##.included-article-list
 ! 아카라이브 - 게시판 - 상단 - 외부_게시판_광고
 arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-child(3) > article.containe-fluid.board-article:nth-child(2) > div.board-article-list > div.article-list:nth-child(6) > div.list-table.table:last-child > a.vrow.column.notice.notice-service:nth-child(2)
 
+! 아카라이브 - 상단 - 외부_게시판_광고
+! Adguard에서 기본 차단, 특정 언어 필터.
+arca.live##.ad
+
+! 아카라이브 - 상단 - 뉴스
+! Adguard에서 기본 차단, 특정 언어 필터.
+arca.live##.topbar-area, .d-lg-none
+
 ! 나무뉴스 - 오른쪽_사이드 - 불타는_뉴스
 namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-adSidebar.border-l-black-500.box-content.hidden.border-l.pl-10.lg\:block:last-child
 
@@ -80,6 +92,8 @@ youtube.com###related
 
 ! 유튜브 - 댓글 - 프로필
 youtube.com###author-thumbnail
+
+
 
 
 
