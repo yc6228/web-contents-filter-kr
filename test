@@ -64,6 +64,10 @@ arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-ch
 ! 나무뉴스 - 오른쪽_사이드 - 불타는_뉴스
 namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-adSidebar.border-l-black-500.box-content.hidden.border-l.pl-10.lg\:block:last-child
 
+! 나무뉴스 - 반응형_UI - 불타는_뉴스
+! 가로 픽셀이 767이 되면 나타남.
+namu.news##.block, .md\:hidden
+
 ! 나무뉴스 - 왼쪽_사이드 - 실시간_검색어
 namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-ad-sidebar.border-r-black-500.box-content.hidden.border-r.pr-10.lg\:block:first-child
 
