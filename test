@@ -32,9 +32,10 @@ m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > 
 ! 디시인사이드 - 모바일 - 게시판 - 상단 - 추천_게시글
 m.dcinside.com###recom_box1
 
-! 디시인사이드 - 댓글 - 댓글돌이
-! Adguard에서 기본 차단, 특정 언어 필터.
-gall.dcinside.com###comment_li_0
+! 디시이슈 - 본문 - 하단 - 광고
+! https://issuefeed.dcinside.com/content/2221491
+!issuefeed.dcinside.com###content-body-2221491 > a:nth-child(25)
+issuefeed.dcinside.com##a:nth-child(25)
 
 ! 디시이슈 - 하단 - 외부_글
 issuefeed.dcinside.com##.wp-recent-posts
