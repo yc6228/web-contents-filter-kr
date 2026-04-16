@@ -36,6 +36,29 @@ m.dcinside.com###recom_box1
 ! Adguard에서 기본 차단, 특정 언어 필터.
 gall.dcinside.com###comment_li_0
 
+! 디시이슈 - 하단 - 외부_글
+issuefeed.dcinside.com##.wp-recent-posts
+
+! 디시이슈 - 하단 - 광고
+! 모바일 페이지 차단으로 데스크톱 페이지 차단됨.
+!issuefeed.dcinside.com##main.bodyW.top-menu.gnb-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > a:nth-child(3)
+!issuefeed.dcinside.com##main.bodyW.top-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > a:nth-child(3)
+issuefeed.dcinside.com##main.bodyW:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box > a:nth-child(3)
+
+! 디시이슈 - 하단 - 많이_본_콘텐츠
+! Adguard에서 기본 차단, 특정 언어 필터.
+! 모바일 페이지 차단으로 데스크톱 페이지 차단됨.
+!issuefeed.dcinside.com##main.bodyW.top-menu.gnb-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > section.sc-b2898454-0.lmYYDf:nth-child(4)
+!issuefeed.dcinside.com##main.bodyW.top-menu.gnb-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > section.sc-b2898454-0.lmYYDf:nth-child(4)
+issuefeed.dcinside.com##main.bodyW:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box > section.sc-b2898454-0.lmYYDf:nth-child(4)
+
+! 디시이슈 - 하단 - 당신을_위한_추천_콘텐츠
+! Adguard에서 기본 차단, 특정 언어 필터.
+! 모바일 페이지 차단으로 데스크톱 페이지 차단됨.
+!issuefeed.dcinside.com##main.bodyW.top-menu.gnb-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > section.sc-30b78294-1.kuxgEJ:nth-child(6)
+!issuefeed.dcinside.com##main.bodyW.top-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > section.sc-30b78294-1.kuxgEJ:nth-child(6)
+issuefeed.dcinside.com##main.bodyW:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box > section.sc-30b78294-1.kuxgEJ:nth-child(6)
+
 ! 개드립 - 사이드
 dogdrip.net###main > div.eq.container > div.eq.clayerbox-right:last-child
 
