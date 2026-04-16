@@ -44,6 +44,7 @@ m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > 
 m.dcinside.com###recom_box1
 
 ! 디시인사이드 - 모바일 - 하단 - 파워링크
+! Adguard에서 기본 차단, 특정 언어 필터.
 !m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid.clkhigh:nth-child(4)
 !m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid.clkhigh:nth-child(6)
 m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid.clkhigh
