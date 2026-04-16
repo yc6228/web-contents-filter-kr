@@ -1,0 +1,168 @@
+
+
+! 디시이슈 - 본문 - 하단 - 외부_글
+issuefeed.dcinside.com##.wp-recent-posts
+! 디시이슈 - 하단 - 광고
+issuefeed.dcinside.com##main.bodyW.top-menu.gnb-menu:nth-child(3) > div.page_content__2zwG1:nth-child(2) > div.content-box:nth-child(2) > a:nth-child(3)
+
+
+
+! 디시인사이드 - 사이드
+gall.dcinside.com##.content_box, .r_dcmedia
+
+! 디시인사이드 - 게시판 - 상단 - 실시간_베스트
+! 필터 둘 다 작동.
+gall.dcinside.com##.concept_wrap
+!gall.dcinside.com###gall_top_recom
+
+! 디시인사이드 - 게시글 - 하단 - 글_목록
+gall.dcinside.com###bottom_listwrap > section.left_content:first-child
+
+! 디시인사이드 - 검색_페이지 - 사이드
+search.dcinside.com##.right_content
+
+! 디시인사이드 - 모바일 - 게시글 - 하단 - 글_목록
+m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(5)
+! 디시인사이드 - 모바일 - 게시글 - 하단 - 다른_게시판
+m.dcinside.com##div.container:nth-child(4) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(8)
+
+! 디시인사이드 - 모바일 - 게시판 - 상단 - 실시간_베스트
+m.dcinside.com###recom_box1
+! 디시인사이드 - 모바일 - 게시판 - 상단 - 디시인사이드_광고
+m.dcinside.com###notice_list
+
+! 디시인사이드 - 모바일 - 검색_페이지 - 다른_게시판
+m.dcinside.com##div.search-wrapping > div.container:nth-child(2) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(8)
+
+
+
+! 에펨코리아 - 게시글 - 하단 - 글_목록
+! 게시판 글 목록도 차단됨.
+fmkorea.com##.bd_lst_wrp
+
+! 에펨코리아 - 팝업
+fmkorea.com###fm_alert
+
+! 에펨코리아 - 게시판 - 상단 - 다른_게시판
+fmkorea.com##.content_widget
+
+! 에펨코리아 - 검색_페이지 - 하단 - 구글_검색
+fmkorea.com###___gcse_0
+
+
+
+! 나무위키 - 사이드
+!namu.wiki###app > div.txWeFeQv.F0NJvhJh:first-child > div.f\+D5lR33.MzEauk3m.OdUYYNqR:nth-child(2) > div.\+RO3qLBS > div._2ECkW7DQ.-arDGCRu:nth-child(5)
+namu.wiki###app > div:first-child > div:nth-child(2) > div > div:nth-child(5)
+
+
+
+! 나무뉴스 - 사이드 - 좌측
+namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-ad-sidebar.border-r-black-500.box-content.hidden.border-r.pr-10.lg\:block:first-child
+! 나무뉴스 - 사이드 - 우측
+namu.news##div.my-10.flex.justify-center:nth-child(4) > aside.w-adSidebar.border-l-black-500.box-content.hidden.border-l.pl-10.lg\:block:last-child
+
+! 나무뉴스 - 모바일 - 하단 - 다른_글
+namu.news##div.my-10.flex.justify-center:nth-child(4) > main.lg\:w-ad-main.mx-5.w-full:nth-child(2) > div.w-full > div.block.md\:hidden:nth-child(3)
+
+
+
+! 루리웹 - 사이드
+bbs.ruliweb.com##.side_wrapper
+
+! 루리웹 - 게시글 - 하단 - 글_목록
+! 게시판 글 목록도 차단됨.
+bbs.ruliweb.com###board_list
+! 루리웹 - 게시글 - 댓글 - 프로필
+bbs.ruliweb.com##.profile_image_m
+
+! 루리웹 - 게시판 - 상단 - 다른_게시판
+bbs.ruliweb.com###board_top
+
+! 루리웹 - 팝업
+bbs.ruliweb.com##.fixed_layer1, .notice_wrapper
+
+! 루리웹 - 모바일 - 팝업
+m.ruliweb.com##div.fixed_layer1.col_12:nth-child(6)
+
+! 루리웹 - 모바일 - 게시글 - 상단 - 추천_글
+! com/community
+m.ruliweb.com###best_on
+! com/best
+m.ruliweb.com###board_top
+! 루리웹 - 모바일 - 게시글 - 댓글 - 프로필
+!m.ruliweb.com###ct_395916103 > td.comment > div.user.row:nth-child(2) > div.user_inner_wrapper > span.profile_image_m:nth-child(2)
+m.ruliweb.com##.profile_image_m:nth-child(2)
+! 루리웹 - 모바일 - 게시글 - 하단 - 공식_콘텐츠
+m.ruliweb.com###bbs_reading_m
+! 루리웹 - 모바일 - 게시글 - 하단 - 글_목록
+m.ruliweb.com###board_list
+! 루리웹 - 모바일 - 게시글 - 하단 - 다른_게시판
+! com/community만
+!m.ruliweb.com###subtop_main > list_read_bottom1.line_deco_bottom:nth-child(3)
+! com/best, com/community
+m.ruliweb.com###main > div.row:nth-child(4) > list_read_bottom1.line_deco_bottom:nth-child(3)
+! 루리웹 - 모바일 - 게시글 - 하단 - 인기_검색어, 유저게시판_최신글, 신설_게시판
+! com/community만
+!m.ruliweb.com###subtop_main > list_read_bottom2.line_deco_bottom:nth-child(5)
+! com/best, com/community
+m.ruliweb.com###main > div.row:nth-child(4) > list_read_bottom2.line_deco_bottom:nth-child(5)
+
+! 루리웹 - 모바일 - 게시판 - 하단 - 다른_게시판
+m.ruliweb.com###subtop_main > list_read_bottom1.line_deco_bottom:nth-child(2)
+! 루리웹 - 모바일 - 게시판 - 하단 - 인기_검색어, 유저게시판_최신글, 신설_게시판
+m.ruliweb.com###subtop_main > list_read_bottom2.line_deco_bottom:nth-child(4)
+
+! 루리웹 - 모바일 - 검색_페이지 - 하단 - 다른_게시판
+m.ruliweb.com###main > div.row:nth-child(4) > list_read_bottom1.line_deco_bottom:nth-child(2)
+! 루리웹 - 모바일 - 검색_페이지 - 하단 - 인기_검색어, 유저게시판_최신글, 신설_게시판
+m.ruliweb.com###main > div.row:nth-child(4) > list_read_bottom2.line_deco_bottom:nth-child(4)
+
+
+
+! 개드립 - 사이드
+dogdrip.net###main > div.eq.container > div.eq.clayerbox-right:last-child
+
+! 개드립 - 게시글 - 하단 - 글_목록
+! 게시판 글 목록도 차단됨.
+dogdrip.net###main > div.eq.container > div.eq.section.secontent.background-color-content:nth-child(2) > div.ed.board.container:last-child > div.ed.board-list:last-child
+! 개드립 - 게시글 - 하단 - 게시판_추천_글
+dogdrip.net###main > div.eq.container > div.eq.section.secontent.background-color-content:nth-child(2) > div.ed.board.container:last-child > div.ed.article-wrapper:nth-child(3) > div.ed.inner-container:first-child > div.ed > div.ed.clearfix.margin-vertical-large:nth-child(2) > div.ed.margin-top-default.margin-bottom-default.instance-exposure-area:nth-child(2)
+
+! 개드립 - 이모지 - 하단
+dogdrip.net###bd_dogcon_list
+
+
+
+! 아카라이브 - 사이드
+arca.live##.sidebar, .right-sidebar
+
+! 아카라이브 - 게시글 - 댓글 - 프로필
+arca.live##.avatar
+! 아카라이브 - 게시글 - 하단 - 글_목록
+arca.live##.included-article-list
+
+! 아카라이브 - 게시판 - 공지 - 광고
+!arca.live##div.root-container:nth-child(2) > div.content-wrapper.clearfix:nth-child(3) > article.containe-fluid.board-article:nth-child(2) > div.board-article-list > div.article-list:nth-child(6) > div.list-table.table:last-child > a.vrow.column.notice.notice-service:nth-child(2)
+arca.live##.notice-service:nth-child(2)
+
+
+
+! 유튜브 - 관련_영상
+youtube.com###related
+! 실시간 채팅과 질문하기도 차단됨.
+!youtube.com###secondary
+! 유튜브 - 댓글 - 프로필
+youtube.com###author-thumbnail-button
+
+! 유튜브 - 모바일 - 하단 - 관련_영상
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch.ambient-topbar.rounded-edges > div.watch-below-the-player:last-child > ytm-single-column-watch-next-results-renderer.watch-content.full-bleed-wn-thumbs:last-child > div.related-items-container:last-child
+! 유튜브 - 모바일 - 하단 - 댓글_미리보기
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch.ambient-topbar.rounded-edges > div.watch-below-the-player:last-child > ytm-single-column-watch-next-results-renderer.watch-content.full-bleed-wn-thumbs:last-child > ytm-item-section-renderer.scwnr-content.single-column-watch-next-modern-panels:nth-child(3) > lazy-list > yt-video-metadata-carousel-view-model.ytVideoMetadataCarouselViewModelHost > div.ytVideoMetadataCarouselViewModelCarouselContainer:last-child
+! 유튜브 - 모바일 - 댓글 - 프로필
+!m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:first-child > ytm-comment-renderer.YtmCommentRendererHost:first-child > a.YtmCommentRendererIconContainer:first-child
+!m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:nth-child(3) > ytm-comment-renderer.YtmCommentRendererHost:first-child > a.YtmCommentRendererIconContainer:first-child
+!m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:first-child > ytm-comment-replies-renderer:last-child > ytm-comment-renderer.YtmCommentRendererHost:first-child > a.YtmCommentRendererIconContainer:first-child
+!m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:first-child > ytm-comment-replies-renderer:last-child > ytm-comment-renderer.YtmCommentRendererHost:last-child > a.YtmCommentRendererIconContainer:first-child
+m.youtube.com##.YtmCommentRendererIconContainer:first-child
+
