@@ -1,3 +1,12 @@
+namu.wiki#@?##_gad_article_top:upward(2):remove()
+
+namu.wiki#@?#div:has(> table a[href^="#s-"]:contains(/^(?:www\.)?(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i)):upward(1):remove()
+
+
+
+namu.wiki###app > div:first-child > div:nth-child(2) > div > div:nth-child(4)
+
+
 
 
 ! 디시이슈 - 본문 - 하단 - 외부_글
@@ -42,10 +51,8 @@ fmkorea.com##.bd_lst_wrp
 
 ! 에펨코리아 - 팝업
 fmkorea.com###fm_alert
-
 ! 에펨코리아 - 게시판 - 상단 - 다른_게시판
 fmkorea.com##.content_widget
-
 ! 에펨코리아 - 검색_페이지 - 하단 - 구글_검색
 fmkorea.com###___gcse_0
 
@@ -70,17 +77,19 @@ namu.news##div.my-10.flex.justify-center:nth-child(4) > main.lg\:w-ad-main.mx-5.
 ! 루리웹 - 사이드
 bbs.ruliweb.com##.side_wrapper
 
-! 루리웹 - 게시글 - 하단 - 글_목록
+! 루리웹 - 게시글 - 하단 - 글_목록    https://bbs.ruliweb.com/community/board/
 ! 게시판 글 목록도 차단됨.
 bbs.ruliweb.com###board_list
 ! 루리웹 - 게시글 - 댓글 - 프로필
 bbs.ruliweb.com##.profile_image_m
 
 ! 루리웹 - 게시판 - 상단 - 다른_게시판
-bbs.ruliweb.com###board_top
+!bbs.ruliweb.com###board_top
 
 ! 루리웹 - 팝업
 bbs.ruliweb.com##.fixed_layer1, .notice_wrapper
+
+
 
 ! 루리웹 - 모바일 - 팝업
 m.ruliweb.com##div.fixed_layer1.col_12:nth-child(6)
@@ -165,4 +174,72 @@ m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch.ambient-topbar
 !m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:first-child > ytm-comment-replies-renderer:last-child > ytm-comment-renderer.YtmCommentRendererHost:first-child > a.YtmCommentRendererIconContainer:first-child
 !m.youtube.com###app > panel-container:nth-child(5) > ytm-engagement-panel.engagement-panel-use-visibility > ytm-engagement-panel-section-list-renderer.engagement-panel-comments-section > div.engagement-panel-section-list-background.draggable:last-child > div.engagement-panel-container > div.engagement-panel-content-wrapper:last-child > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer > lazy-list:last-child > ytm-comment-thread-renderer.YtmCommentThreadRendererHost.item:first-child > ytm-comment-replies-renderer:last-child > ytm-comment-renderer.YtmCommentRendererHost:last-child > a.YtmCommentRendererIconContainer:first-child
 m.youtube.com##.YtmCommentRendererIconContainer:first-child
+
+
+
+
+
+! 디시인사이드 - 갤러리 - 검색 - 전체 검색
+gall.dcinside.com###kakao_search
+
+! 뀨잉넷 - 관련 콘텐츠
+qquing.net###nt_body > div.nt-container > div.nt-content > ul:nth-child(9)
+! 뀨잉넷 - 인기 콘텐츠
+qquing.net##.lt_Box_today
+! 뀨잉넷 - 글_목록
+qquing.net###bo_list
+! 뀨잉넷 - HIT_인기글
+qquing.net##.lt_Box
+! 뀨잉넷 - 다음글_이전글
+qquing.net##.f-small
+
+
+
+! 루리웹 - 하단 - 글_목록    https://bbs.ruliweb.com/best/board/
+bbs.ruliweb.com###best_list
+
+
+
+
+
+
+
+
+
+
+
+! 디시인사이드 - 모바일 - 게시글 - 추천_글
+m.dcinside.com##div.container:nth-child(5) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(8)
+! 디시인사이드 - 모바일 - 게시글 - 글_목록
+m.dcinside.com##div.container:nth-child(5) > div.sec-wrap-sub > div.brick-wid > section.grid:nth-child(5)
+
+! 이거는 디시콘 팝업도 차단함.
+!gall.dcinside.com##.rtbAlarmPopup, .pop_wrap, .alarm
+
+! 디시인사이드 - 팝업
+!gall.dcinside.com##div.rtbAlarmPopup.pop_wrap.alarm:nth-child(8)
+!gall.dcinside.com##div.rtbAlarmPopup.pop_wrap.alarm:nth-child(4)
+gall.dcinside.com##div.rtbAlarmPopup.pop_wrap.alarm
+
+! 디시인사이드 - 모바일 - 팝업
+m.dcinside.com##div.container:nth-child(5) > div.sec-wrap-sub > div.brick-wid > div.alarm-popup.roundtype.silbe-alarm.best-a:nth-child(11)
+
+! 루리웹 - 팝업
+user.ruliweb.com##.fixed_layer1, .notice_wrapper
+
+
+
+! 네이버 뉴스 - 사이드
+n.news.naver.com##.outside_area, ._OUTSIDE_AREA
+! 네이버 뉴스 - 하단
+n.news.naver.com##.feed_wrapper
+! 네이버 뉴스 - 기사 - 내부
+n.news.naver.com##.media_end_linked
+! 네이버 뉴스 - 기사 - 내부
+n.news.naver.com##.related_issue
+! 네이버 뉴스 - 기사 - 내부
+n.news.naver.com##.newsct_journalist
+! 네이버 뉴스 - 기사 - 내부
+n.news.naver.com##.promotion
+
 
